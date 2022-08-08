@@ -1,0 +1,329 @@
+  * { /* Reset the space of the webpage */
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+ }
+/* resources */
+
+a {
+
+  color: white;
+}
+#resources {
+  text-align: center;
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 20.00px; 
+  margin:3em;
+}
+
+/* resources */
+/*to support */
+#name{
+ text-align:center; 
+}
+
+#one{
+  background-color:red;
+  border: floralwhite;
+  font-family: 'Oxygen Mono', monospace;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 3px;
+}
+
+
+#secret{
+  margin-bottom:4em;
+  font-size: 2em;
+  color: white;
+  margin: 3%;
+}
+.src{
+  font-size:50px;
+}
+#pro{
+  font-size:30px;
+  color:red;
+  margin:1em;
+  
+}
+label{
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: row;
+  margin:1em;
+color:white;
+font-size:50px;
+
+}
+#butto{
+  position:absolute 
+  text-align:center;
+}
+#myButton{
+text-align:center;
+    display: grid;
+  gap: 1rem;
+  grid-auto-flow: row;
+  float:center;
+
+  padding: 1em;
+  font-size: 20.00px;
+  height: 80px;
+  background-color: red;
+  color: white;
+  border: floralwhite;
+  font-family: 'Oxygen Mono', monospace;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 3px;
+  margin-bottom: 1.5em;
+  
+}
+#myButton:hover {
+  background-color:white;
+  color: red;
+  transition-duration: 0.4s;
+}
+#con{
+font-size:20px;
+  color:white;
+background-color:red;
+  margin:1em;
+  margin-left:20em;
+   margin-right:20em;
+ 
+  }
+#please{
+  margin:1em;
+}
+#email{
+  margin-top:2em;
+margin:10em;
+  font-size:40px;
+   position: absolute;
+    box-sizing: border-box
+  
+  padding: 80px 60;
+  margin:50px;
+  border: 5px solid red;
+}
+/*to support */
+body {
+  margin:1em;
+  
+ background-color: black; 
+  text-align:left;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  text-align:center;
+  font-size:70px;
+  color: red;
+  padding:10px;
+}
+h3{
+  color:white;
+  font-size:40px;
+}
+/* STYLE IMAGES */
+
+iframe{
+  padding:2em;
+
+}
+/*div {
+    position: relative;
+} */
+#intro{
+  background-color:black;
+  font-size: 25.00px;
+  color: white;
+  font-family: 'Oxygen Mono', monospace;
+  padding:3em;
+  
+  
+}
+
+.home2{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  background-color:black;
+  padding:4em;
+}
+#second-im{
+ 
+ position: relative;
+  width: 200%;
+  height: 600px;
+  opacity: 0.5;
+
+}
+/* our seconnd info on home */
+#abt {
+  text-align: center;
+}
+#abt-head {
+  font-size: 50.00px;
+  
+  padding-top:0;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 1em;
+  color: white;
+  background-color:black;
+}
+
+.p-container {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+  background-color: red;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.p2 {
+  font-size: 30px;
+  font-family: 'Oxygen Mono', monospace;
+  color:white;
+}
+
+/* end og our home */
+
+.title{
+
+   display: flex;
+  position: relative;
+  justify-content: space-around;
+  
+    font-size: 40.00px;
+  color: white;
+  padding-top: 2em;
+  color:red;
+  background-color:black;
+padding-bottom:1.5em;
+ 
+}
+.head-text{
+ bottom:250%;
+  display: flex;
+  position: absolute;
+  color: red;
+  flex-direction: row;
+  font-size: 60.00px;
+  margin-top: 6.5%;
+  border-style: solid;
+  border-color: black;
+  border-width: 20px;
+  padding: 1em;
+  padding-right: 4em;
+   padding-left: 4em;
+  font-family: 'Chelsea Market';
+}
+
+#image4{
+ position: relative;
+  width: 1800px;
+   height: 700px;
+}
+
+
+.head{
+ position: relative;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+} 
+figcaption{
+  color:red;
+  padding:1em;
+  display:inline;
+  font-size:40px;
+  
+}
+
+
+/* redirecting button */
+#b2{
+  text-align:center;
+}
+
+#redirect-button {
+  padding: 1em;
+  font-size: 20.00px;
+  height: 80px;
+  background-color: red;
+  color: white;
+  border: floralwhite;
+  font-family: 'Oxygen Mono', monospace;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 3px;
+  margin-bottom: 1.5em;
+}
+
+#redirect-button:hover {
+  background-color:white;
+  color: red;
+  transition-duration: 0.4s;
+}
+
+ul {
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+  border-left:10px solid black;
+  border-right:10px solid black;
+  list-style-type: none;
+  background-color: red;
+  overflow: hidden;
+  padding: 1em;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  padding: 1em;
+  font-family: 'Oxygen Mono', monospace;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.video{
+  text-align:center;
+  width:50em;
+height:30em;
+}
+#video2{
+  text-align:center;
+  width:50em;
+height:30em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+  background-color: red;
+  padding: 1em;
+}
+
+
+
